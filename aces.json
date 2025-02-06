@@ -1,0 +1,56 @@
+﻿{
+	"setters": {
+		"conditions": [
+		],
+		"actions":
+		[
+			{
+				"id": "set-dont-click-through-objects",
+				"scriptName": "SetDontClickThroughObjects",
+				"highlight": false,
+				"params": [
+					{"id":"param", "type":"combo", "items":["off","on","toggle"]}
+				]
+			},
+
+			{
+				"id": "dont-click-through-objects-on-other-layers",
+				"scriptName": "SetDontClickThroughObjectsOnOtherLayers",
+				"highlight": false,
+				"params": [
+					{"id":"param", "type":"combo", "items":["off","on","toggle"]}
+				]
+			},
+
+			{
+				"id": "set-dont-click-through-layers",
+				"scriptName": "SetDontClickThroughLayers",
+				"highlight": false,
+				"params": [
+					{"id":"param", "type":"combo", "items":["off","on","toggle"]}
+				]
+			},
+
+			{
+				"id": "set-ignore-invisible-objects",
+				"scriptName": "SetIgnoreInvisibleObjects",
+				"highlight": false,
+				"params": [
+					{"id":"param", "type":"combo", "items":["off","on","toggle"]}
+				]
+			},
+
+			{
+				"id": "set-ignore-invisible-layers",
+				"scriptName": "SetIgnoreInvisibleLayers",
+				"highlight": false,
+				"params": [
+					{"id":"param", "type":"combo", "items":["off","on","toggle"]}
+				]
+			}
+
+		],
+		"expressions": [
+		]
+	}
+}

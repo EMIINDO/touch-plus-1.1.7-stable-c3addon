@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="24" height="24">
+ <defs xmlns="http://www.w3.org/2000/svg"><style>.cls-1{fill:#0f768c;}</style></defs>
+    <g class="layer">
+  <title>Layer 1</title>
+  <path clip-rule="evenodd" d="m13.76,13.497l-0.76,0l0,-6c0,-0.83 -0.67,-1.5 -1.5,-1.5s-1.5,0.67 -1.5,1.5l0,10.74l-3.43,-0.72c-0.08,-0.01 -0.15,-0.03 -0.24,-0.03c-0.311,0 -0.59,0.13 -0.791,0.33l-0.789,0.8l4.939,4.94c0.27,0.27 0.65,0.44 1.061,0.44l6.789,0c0.75,0 1.33,-0.55 1.441,-1.28l0.75,-5.27c0.094,-0.666 -0.264,-1.32 -0.891,-1.58l-4.538,-2.26l-0.541,-0.11z" fill="black" fill-rule="evenodd" id="svg_1" class="cls-1"/>
+  <circle cx="11.45701" cy="7.390395" fill="black" id="svg_2" r="2.951851" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" class="cls-1"/>
+  <rect xmlns="http://www.w3.org/2000/svg" class="cls-1" height="6.93261" id="svg_3" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="2.904725" x="9.946553" y="0.496515"/>
+  <rect xmlns="http://www.w3.org/2000/svg" class="cls-1" height="6.93261" id="svg_8" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" transform="rotate(-90 7.89388 7.35166)" width="2.904725" x="6.441518" y="3.88536"/>
+  <rect xmlns="http://www.w3.org/2000/svg" class="cls-1" height="6.93261" id="svg_9" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" transform="rotate(-90 14.9427 7.35167)" width="2.904725" x="13.490318" y="3.88536"/>
+ </g>
+</svg>

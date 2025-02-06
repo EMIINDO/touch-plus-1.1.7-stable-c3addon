@@ -1,0 +1,163 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for ValerypopoffTouchPlusPlugin.",
+	"text": {
+		"plugins": {
+			"valerypopofftouchplusplugin": {
+				"name": "Valerypopoff Touch Plus",
+				"description": "Extend system Touch plugin with additional options.",
+				"help-url": "http://valerypopoff.ru/construct/touch-plus-plugin",
+				"properties":
+				{
+					"dont-click-through-objects": 
+					{
+						"name": "Don't touch through objects",
+						"desc": "Set if you only want clicks and touches registered on the topmost objects."
+					},
+
+					"dont-click-through-objects-on-other-layers": 
+					{
+						"name": "Don't touch through objects on other layers",
+						"desc": "Set if you only want clicks and touches registered on the objects that are not obscured by objects on higher layers."
+					},
+
+					"dont-click-through-layers": 
+					{
+						"name": "Don't touch through layers",
+						"desc": "Set if you only want clicks and touches registered on the topmost layers."
+					},
+
+					"ignore-invisible-objects": 
+					{
+						"name": "Ignore invisible objects",
+						"desc": "Set if you only want clicks and touches registered on the visible objects (Visible and opacity > 0)."
+					},
+
+					"ignore-invisible-layers": 
+					{
+						"name": "Ignore invisible layers",
+						"desc": "Set if you only want clicks and touches registered on the objects that are on visible layers (Visible and opacity > 0)."
+					}
+				},
+				"aceCategories": {
+					"setters": "Setters"
+				},
+				"conditions": {
+
+				},
+				"actions": 
+				{
+					"set-dont-click-through-objects": 
+					{
+						"list-name": "Set 'Don't touch through objects'",
+						"display-text": "Set 'Don't touch through objects' [b]{0}[/b]",
+						"description": "Set 'Don't touch through objects'",
+						"params":
+						{
+							"param": 
+							{ 
+								"name":"State", 
+								"desc":"Choose the state.", 
+								"items":
+								{
+									"off":"Off",
+									"on":"On",
+									"toggle": "Toggle"
+								}
+							}
+						}
+					},
+
+					"dont-click-through-objects-on-other-layers": 
+					{
+						"list-name": "Set 'Don't touch through objects on other layers'",
+						"display-text": "Set 'Don't touch through objects on other layers' [b]{0}[/b]",
+						"description": "Set 'Don't touch through objects on other layers'",
+						"params":
+						{
+							"param": 
+							{ 
+								"name":"State", 
+								"desc":"Choose the state.", 
+								"items":
+								{
+									"off":"Off",
+									"on":"On",
+									"toggle": "Toggle"
+								}
+							}
+						}
+					},
+
+					"set-dont-click-through-layers": 
+					{
+						"list-name": "Set 'Don't touch through layers'",
+						"display-text": "Set 'Don't touch through layers' [b]{0}[/b]",
+						"description": "Set 'Don't touch through layers'",
+						"params":
+						{
+							"param": 
+							{ 
+								"name":"State", 
+								"desc":"Choose the state.", 
+								"items":
+								{
+									"off":"Off",
+									"on":"On",
+									"toggle": "Toggle"
+								}
+							}
+						}
+					},
+
+					"set-ignore-invisible-objects": 
+					{
+						"list-name": "Set 'Ignore invisible objects'",
+						"display-text": "Set 'Ignore invisible objects' [b]{0}[/b]",
+						"description": "Set 'Ignore invisible objects'",
+						"params":
+						{
+							"param": 
+							{ 
+								"name":"State", 
+								"desc":"Choose the state.", 
+								"items":
+								{
+									"off":"Off",
+									"on":"On",
+									"toggle": "Toggle"
+								}
+							}
+						}
+					},
+
+					"set-ignore-invisible-layers": 
+					{
+						"list-name": "Set 'Ignore invisible layers'",
+						"display-text": "Set 'Ignore invisible layers' [b]{0}[/b]",
+						"description": "Set 'Ignore invisible layers'",
+						"params":
+						{
+							"param": 
+							{ 
+								"name":"State", 
+								"desc":"Choose the state.", 
+								"items":
+								{
+									"off":"Off",
+									"on":"On",
+									"toggle": "Toggle"
+								}
+							}
+						}
+					}					
+				},
+
+				"expressions": 
+				{
+
+				}
+			}
+		}
+	}
+}
